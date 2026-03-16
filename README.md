@@ -26,12 +26,15 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+guess a number, with hints whether the number should be higher or lower.
 - [ ] Detail which bugs you found.
+hints were reversed, difficulty would not change the range of numbers in the game.
 - [ ] Explain what fixes you applied.
+reversed the hint logic and used variables to represent the range that is being asked. 
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- ![game winning image](image.png)
 
 ## 🚀 Stretch Features
 

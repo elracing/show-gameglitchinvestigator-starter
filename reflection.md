@@ -32,15 +32,18 @@ it helped me understand the assert function a bit better.
 
 ## 4. What did you learn about Streamlit and state?
 
-- In your own words, explain why the secret number kept changing in the original app.
-- How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-- What change did you make that finally gave the game a stable secret number?
+- In your own words, explain why the secret number kept changing in the original app. I believe this is because the state would change?
+- How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit? everytime streamlit re runs, a new "box" is used where evrything is different.
+- What change did you make that finally gave the game a stable secret number? I didnt make a change regarding this, my fixes were elsewhere, the previous questions did not ask me to fix that particular issue.
 
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
-  - This could be a testing habit, a prompting strategy, or a way you used Git.
+  - This could be a testing habit, a prompting strategy, or a way you used Git. 
+  Using more generated tests to verify changes.
 - What is one thing you would do differently next time you work with AI on a coding task?
+N/A, this is probably how I would still go about it.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+Not much really, I was already using AI to generate code for a while. It did however, show me how useful the generated tests are.
