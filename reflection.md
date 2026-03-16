@@ -8,22 +8,25 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+  Hints are reversed, range of numbers is not enforced with difficulty (its always 1 - 100), game will not restart properly
+
 ---
 
 ## 2. How did you use AI as a teammate?
 
-- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
-- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
-- Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
-
+- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)? copilot
+- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result). reversing the "go higher" hints, tests will assert for the correct string and is visible correctly in the live game.
+- Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).AI fixed an issue where the range of numbers that was asked was incorrect depending on difficulty, it fixed the display but the game still looks for numbers outside that range when playing the game live.
 ---
 
 ## 3. Debugging and testing your fixes
 
-- How did you decide whether a bug was really fixed?
-- Describe at least one test you ran (manual or using pytest)  
+- How did you decide whether a bug was really fixed? I went to the live version of the game and tried to reproduce the errors myself.
+- Describe at least one test you ran (manual or using pytest) 
   and what it showed you about your code.
+   I played the game and checked that the high or low hints were leading me correctly, which they did
 - Did AI help you design or understand any tests? How?
+it helped me understand the assert function a bit better.
 
 ---
 
